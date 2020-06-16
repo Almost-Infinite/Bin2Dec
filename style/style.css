@@ -1,0 +1,117 @@
+body {
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url("../img/bina.jpg") repeat-y;
+    background-size: cover;     
+    animation: animab 2s linear forwards ;
+    overflow: hidden;
+    
+}
+@keyframes animab {
+    0% {
+        transform: translateY(1000px);
+        opacity: 0;
+
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    margin-top: 6%; 
+    margin-left: 30%;          
+    background-color: azure;
+    border: 3px solid rgb(0, 0, 0);
+    background: url("../img/texture.jpg") no-repeat;
+    background-size: cover; 
+    text-shadow: 1px 1px 1px  rgb(166, 255, 0);
+    align-items: center;
+    justify-content: center;  
+    animation: conten 2.5s linear infinite;  
+}
+@keyframes conten {
+    0% {
+        box-shadow: 1px 1px 1px 5px rgb(255, 0, 0);
+    }
+    25% {
+        box-shadow: 1px 1px 1px 5px rgb(255, 0, 179);
+    }
+    50% {
+        box-shadow: 1px 1px 1px 5px rgb(238, 255, 0);
+        
+    }
+    75% {
+        box-shadow: 1px 1px 1px 5px rgb(55, 0, 255);
+    }
+    100% {
+        box-shadow: 1px 1px 1px 5px rgb(255, 0, 0);
+    }
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px; 
+    font-weight: bold;   
+    color: black;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-bottom: 50px;
+
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 22px;
+    font-weight: bold;  
+    
+    
+    
+}
+form input {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+    outline: none;
+}
+form input:focus{
+    background: rgba(238, 255, 0, 0.596);
+}
+#dec, #bina {    
+    font-size: 20px;
+    font-weight: bold;
+    color: red;   
+    
+}
+button {
+    width: 150px;
+    height: 30px;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 8px;
+    outline: none;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button:hover{
+    transform: translate(-10px);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 1);
+    border: 2px solid rgb(0, 255, 85);
+}

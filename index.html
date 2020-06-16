@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./style/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+        <title>Bin2Dec</title>
+    </head>
+
+    <body>
+
+        <div class="content">
+            <header>Binary to Decimal Converter</header>
+            <form action="">
+                <label for="bi">Binary</label>
+                <input type="text" name="bi" required="required" id="bina">
+
+                <label for="dec">Decimal</label>
+                <input type="text" name="dec" disabled="disabled" id="dec">
+            </form>
+
+            <button onclick="calc()">Convert</button>
+            <button onclick="clean()">Clean</button>
+
+        </div>
+
+        
+
+        <script src="./js/script.js"></script>
+    </body>
+</html>
