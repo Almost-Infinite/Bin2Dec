@@ -1,5 +1,9 @@
 # Bin2Dec
 
+
+
+[Bin2Dec Site](https://almost-infinite.github.io/Bin2Dec/)
+
 ![Bin2Dec](./img/binary.png)
 
 Binary is the number system all digital computers are based on.

@@ -1,3 +1,10 @@
+window.onload = setTimeout(function() {
+  
+  const cont = document.querySelector(".preload")
+  cont.classList.add("load")
+},1000)
+
+
 function calc() {
 
   const binari = document.querySelector("#bina")
