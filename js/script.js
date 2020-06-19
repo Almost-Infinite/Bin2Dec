@@ -1,8 +1,8 @@
-window.onload = function() {
+window.onload = setTimeout(function() {
   
   const cont = document.querySelector(".preload")
   cont.classList.add("load")
-}
+},2000)
 
 
 function calc() {
